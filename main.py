@@ -6,30 +6,33 @@ from report import gerar_relatorio
 
 def menu():
     """
-    Exibe o menu principal e executa a opção escolhida pelo usuário.
+    Exibe o menu principal do sistema.
     """
-    criar_tabela()  # Cria a tabela no banco, se não existir
+    criar_tabela()
 
     while True:
-        # Cabeçalho do sistema
-        print("\n========================================")
-        print("  Sistema de Cadastro do Cartório Central  ")
-        print("========================================\n")
+        print("\n==============================================")
+        print("   SISTEMA DE GESTÃO – CARTÓRIO CENTRAL")
+        print("==============================================\n")
 
-        print("Bem-vindo! Os serviços disponíveis são:\n")
-        print("Registro de Imóveis")
-        print("Registro Civil de Pessoas Naturais")
-        print("Reconhecimento de Firmas")
-        print("Autenticação de Documentos")
-        print("Protesto de Títulos\n")
+        print("Serviços disponíveis:")
+        print("• Registro de Imóveis")
+        print("• Registro Civil (Nascimento, Casamento e Óbito)")
+        print("• Reconhecimento de Firma")
+        print("• Autenticação de Documentos")
+        print("• Emissão de Certidões")
+        print("• Protesto de Títulos\n")
 
-        print("[1] Inserir Cliente")
+        print("----------------------------------------------")
+        print("Menu de Operações:")
+        print("[1] Cadastrar Cliente")
         print("[2] Listar Clientes")
         print("[3] Buscar Cliente (CPF)")
-        print("[4] Atualizar Cliente")
+        print("[4] Atualizar Cadastro")
         print("[5] Remover Cliente")
         print("[6] Gerar Relatório")
-        print("[0] Sair")
+        print("[0] Encerrar Sistema")
+        print("----------------------------------------------")
 
         opcao = input("Escolha uma opção: ")
 
@@ -101,7 +104,7 @@ def menu():
 
         # SAIR
         elif opcao == '0':
-            print("Saindo...")
+            print("Encerrando o sistema. Obrigado por utilizar nossos serviços.")
             break
 
         else:
