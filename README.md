@@ -2,13 +2,13 @@
 
 Este sistema foi desenvolvido para gerenciar clientes de um cartório, permitindo cadastro, atualização, busca, remoção e geração de relatórios.
 
-## 📌 Funcionalidades  
-- 📂 **Cadastro de Clientes** (Nome, CPF, Telefone, Endereço, Serviço, Data de Atendimento)  
-- 🔍 **Busca de Clientes** pelo nome  
-- 📜 **Listagem de Clientes**  
-- ✏️ **Atualização de Dados do Cliente**  
-- ❌ **Remoção de Clientes** pelo nome  
-- 📊 **Geração de Relatórios**  
+##  Funcionalidades  
+-  **Cadastro de Clientes** (Nome, CPF, Telefone, Endereço, Serviço, Data de Atendimento)  
+-  **Busca de Clientes** pelo nome  
+-  **Listagem de Clientes**  
+-  **Atualização de Dados do Cliente**  
+-  **Remoção de Clientes** pelo nome  
+-  **Geração de Relatórios**  
 
 ---
 
