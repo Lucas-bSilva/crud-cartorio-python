@@ -71,7 +71,7 @@ Python 3.x
 
 SQLite3 para banco de dados
 
-VS Code para 
+VS Code 
 
 
 # Execução do Programa: 
